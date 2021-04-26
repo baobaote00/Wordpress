@@ -121,7 +121,6 @@ wp_add_inline_script(
 
 // Get admin url for handling meta boxes.
 $meta_box_url = admin_url( 'post.php' );
-// var_dump($meta_box_url);die;
 $meta_box_url = add_query_arg(
 	array(
 		'post'                  => $post->ID,
@@ -131,8 +130,6 @@ $meta_box_url = add_query_arg(
 	),
 	$meta_box_url
 );
-// var_dump($meta_box_url);die;
-
 wp_add_inline_script(
 	'wp-editor',
 	sprintf( 'var _wpMetaBoxUrl = %s;', wp_json_encode( $meta_box_url ) ),
@@ -163,7 +160,7 @@ $custom_spacing     = get_theme_support( 'custom-spacing' );
  * @param WP_Post    $post                The post resource data.
  */
 $allowed_block_types = apply_filters( 'allowed_block_types', true, $post );
-// var_dump($allowed_block_types);die;
+
 /*
  * Get all available templates for the post/page attributes meta-box.
  * The "Default template" array element should only be added if the array is
@@ -184,7 +181,6 @@ $max_upload_size = wp_max_upload_size();
 if ( ! $max_upload_size ) {
 	$max_upload_size = 0;
 }
-// var_dump($max_upload_size);die;
 
 // Editor Styles.
 $styles = array(
@@ -200,9 +196,8 @@ $styles = array(
 $styles[] = array(
 	'css' => 'body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif }',
 );
-// $test = false;
+
 if ( $editor_styles && current_theme_supports( 'editor-styles' ) ) {
-	// $test = true;
 	foreach ( $editor_styles as $style ) {
 		if ( preg_match( '~^(https?:)?//~', $style ) ) {
 			$response = wp_remote_get( $style );
@@ -222,8 +217,6 @@ if ( $editor_styles && current_theme_supports( 'editor-styles' ) ) {
 		}
 	}
 }
-// var_dump($test);die;	
-
 
 // Default editor styles.
 $default_editor_styles = array(
@@ -248,7 +241,7 @@ $image_size_names = apply_filters(
 		'full'      => __( 'Full Size' ),
 	)
 );
-// var_dump($image_size_names);die;
+
 $available_image_sizes = array();
 foreach ( $image_size_names as $image_size_slug => $image_size_name ) {
 	$available_image_sizes[] = array(
@@ -268,7 +261,6 @@ foreach ( $available_image_sizes as $size ) {
 
 // Lock settings.
 $user_id = wp_check_post_lock( $post->ID );
-// var_dump($user_id);die;
 if ( $user_id ) {
 	$locked = false;
 
@@ -302,7 +294,6 @@ if ( $user_id ) {
 		'activePostLock' => $active_post_lock,
 	);
 }
-// var_dump($lock_details);die;
 
 /**
  * Filters the body placeholder text.
@@ -313,7 +304,7 @@ if ( $user_id ) {
  * @param WP_Post $post Post object.
  */
 $body_placeholder = apply_filters( 'write_your_story', __( 'Start writing or type / to choose a block' ), $post );
-// var_dump($body_placeholder);die;
+
 $editor_settings = array(
 	'alignWide'                            => $align_wide,
 	'availableTemplates'                   => $available_templates,
@@ -322,9 +313,8 @@ $editor_settings = array(
 	'disableCustomFontSizes'               => get_theme_support( 'disable-custom-font-sizes' ),
 	'disableCustomGradients'               => get_theme_support( 'disable-custom-gradients' ),
 	'disablePostFormats'                   => ! current_theme_supports( 'post-formats' ),
-	/** This filter is documented in wp-admin/cf */
+	/** This filter is documented in wp-admin/edit-form-advanced.php */
 	'titlePlaceholder'                     => apply_filters( 'enter_title_here', __( 'Add title' ), $post ),
-	'mailPlaceholder'                     => apply_filters( 'enter_title_here', __( 'Add title' ), $post ),
 	'bodyPlaceholder'                      => $body_placeholder,
 	'isRTL'                                => is_rtl(),
 	'autosaveInterval'                     => AUTOSAVE_INTERVAL,
@@ -367,12 +357,9 @@ if ( false !== $color_palette ) {
 	$editor_settings['colors'] = $color_palette;
 }
 
-
-
 if ( false !== $font_sizes ) {
 	$editor_settings['fontSizes'] = $font_sizes;
 }
-
 
 if ( false !== $gradient_presets ) {
 	$editor_settings['gradients'] = $gradient_presets;
@@ -383,9 +370,6 @@ if ( ! empty( $post_type_object->template ) ) {
 	$editor_settings['templateLock'] = ! empty( $post_type_object->template_lock ) ? $post_type_object->template_lock : false;
 }
 
-// var_dump(empty( $post_type_object->template ));die;
-
-
 // If there's no template set on a new post, use the post format, instead.
 if ( $is_new_post && ! isset( $editor_settings['template'] ) && 'post' === $post->post_type ) {
 	$post_format = get_post_format( $post );
@@ -393,6 +377,7 @@ if ( $is_new_post && ! isset( $editor_settings['template'] ) && 'post' === $post
 		$editor_settings['template'] = array( array( "core/$post_format" ) );
 	}
 }
+
 /**
  * Scripts
  */
@@ -410,7 +395,6 @@ wp_enqueue_editor();
  */
 wp_enqueue_style( 'wp-edit-post' );
 wp_enqueue_style( 'wp-format-library' );
-// var_dump(wp_enqueue_style('wp-edit-post'));die;
 
 /**
  * Fires after block assets have been enqueued for the editing interface.
@@ -428,7 +412,7 @@ do_action( 'enqueue_block_editor_assets' );
 require_once ABSPATH . 'wp-admin/includes/meta-boxes.php';
 register_and_do_post_meta_boxes( $post );
 
-// 	
+// Check if the Custom Fields meta box has been removed at some point.
 $core_meta_boxes = $wp_meta_boxes[ $current_screen->id ]['normal']['core'];
 if ( ! isset( $core_meta_boxes['postcustom'] ) || ! $core_meta_boxes['postcustom'] ) {
 	unset( $editor_settings['enableCustomFields'] );
@@ -461,8 +445,6 @@ $script = sprintf(
 	wp_json_encode( $editor_settings ),
 	wp_json_encode( $initial_edits )
 );
-// var_dump($script);die;
-
 wp_add_inline_script( 'wp-edit-post', $script );
 
 require_once ABSPATH . 'wp-admin/admin-header.php';
@@ -477,7 +459,7 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 
 	<?php // JavaScript is disabled. ?>
 	<div class="wrap hide-if-js block-editor-no-js">
-		<h1 class="wp-heading-inline"><?php echo esc_html( $title );  ?></h1>
+		<h1 class="wp-heading-inline"><?php echo esc_html( $title ); ?></h1>
 		<div class="notice notice-error notice-alt">
 			<p>
 				<?php

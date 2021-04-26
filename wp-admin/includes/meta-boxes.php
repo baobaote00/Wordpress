@@ -1436,6 +1436,7 @@ function register_and_do_post_meta_boxes( $post ) {
 	}
 
 	$publish_callback_args = array( '__back_compat_meta_box' => true );
+
 	if ( post_type_supports( $post_type, 'revisions' ) && 'auto-draft' !== $post->post_status ) {
 		$revisions = wp_get_post_revisions( $post->ID, array( 'fields' => 'ids' ) );
 
@@ -1450,9 +1451,6 @@ function register_and_do_post_meta_boxes( $post ) {
 			add_meta_box( 'revisionsdiv', __( 'Revisions' ), 'post_revisions_meta_box', null, 'normal', 'core', array( '__back_compat_meta_box' => true ) );
 		}
 	}
-	// var_dump('attachment' === $post_type);die;
-	// var_dump( 'attachment' === $post_type);die;
-	
 
 	if ( 'attachment' === $post_type ) {
 		wp_enqueue_script( 'image-edit' );
@@ -1466,34 +1464,25 @@ function register_and_do_post_meta_boxes( $post ) {
 	} else {
 		add_meta_box( 'submitdiv', __( 'Publish' ), 'post_submit_meta_box', null, 'side', 'core', $publish_callback_args );
 	}
-	// var_dump($publish_callback_args);die;
 
 	if ( current_theme_supports( 'post-formats' ) && post_type_supports( $post_type, 'post-formats' ) ) {
 		add_meta_box( 'formatdiv', _x( 'Format', 'post format' ), 'post_format_meta_box', null, 'side', 'core', array( '__back_compat_meta_box' => true ) );
 	}
-	// var_dump(current_theme_supports( 'post-formats' ) && post_type_supports( $post_type, 'post-formats' ));die;
 
 	// All taxonomies.
-	// var_dump(get_object_taxonomies( $post ));die;
-	
 	foreach ( get_object_taxonomies( $post ) as $tax_name ) {
 		$taxonomy = get_taxonomy( $tax_name );
-		// var_dump($taxonomy);die;
-		
 		if ( ! $taxonomy->show_ui || false === $taxonomy->meta_box_cb ) {
 			continue;
 		}
 
 		$label = $taxonomy->labels->name;
-		// var_dump($label);die;
-		
+
 		if ( ! is_taxonomy_hierarchical( $tax_name ) ) {
 			$tax_meta_box_id = 'tagsdiv-' . $tax_name;
 		} else {
 			$tax_meta_box_id = $tax_name . 'div';
 		}
-		// var_dump( $tax_meta_box_id );die;
-		
 
 		add_meta_box(
 			$tax_meta_box_id,
@@ -1539,8 +1528,6 @@ function register_and_do_post_meta_boxes( $post ) {
 			)
 		);
 	}
-	// var_dump( post_type_supports( $post_type, 'custom-fields' ) );die;
-	
 
 	/**
 	 * Fires in the middle of built-in meta box registration.

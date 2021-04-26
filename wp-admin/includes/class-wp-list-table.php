@@ -1276,7 +1276,7 @@ class WP_List_Table {
 	</tr>
 	</thead>
 
-	<tbody id="the-list aaaa"
+	<tbody id="the-list"
 		<?php
 		if ( $singular ) {
 			echo " data-wp-lists='list:$singular'";
@@ -1294,7 +1294,7 @@ class WP_List_Table {
 
 </table>
 		<?php
-		$this->display_tablenav( 'bottom' );        
+		$this->display_tablenav( 'bottom' );
 	}
 
 	/**

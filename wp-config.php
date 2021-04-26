@@ -20,19 +20,19 @@
 
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
-define('DB_NAME', 'wordpress');
+define( 'DB_NAME', 'wordpress' );
 
 /** Username của database */
-define('DB_USER', 'root');
+define( 'DB_USER', 'root' );
 
 /** Mật khẩu của database */
-define('DB_PASSWORD', '');
+define( 'DB_PASSWORD', '' );
 
 /** Hostname của database */
-define('DB_HOST', 'localhost');
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset sử dụng để tạo bảng database. */
-define('DB_CHARSET', 'utf8');
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** Kiểu database collate. Đừng thay đổi nếu không hiểu rõ. */
 define('DB_COLLATE', '');
@@ -48,14 +48,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'khóa không trùng nhau');
-define('SECURE_AUTH_KEY',  'khóa không trùng nhau');
-define('LOGGED_IN_KEY',    'khóa không trùng nhau');
-define('NONCE_KEY',        'khóa không trùng nhau');
-define('AUTH_SALT',        'khóa không trùng nhau');
-define('SECURE_AUTH_SALT', 'khóa không trùng nhau');
-define('LOGGED_IN_SALT',   'khóa không trùng nhau');
-define('NONCE_SALT',       'khóa không trùng nhau');
+define( 'AUTH_KEY',         '[;G=)P2_uN#9PQJ/&YPkY|L/ToY4}Q`Qq_3&IH7,}G#Z>F[oc!<jqgFc8V/.|kt[' );
+define( 'SECURE_AUTH_KEY',  '{yHF0u|~pr?qNbLKZ#5V6jEaN/No[iVrD?1oT$lB;q=wc_&C#bQ74qK4Hy(F/L`k' );
+define( 'LOGGED_IN_KEY',    '>q_Pcry+3$ls`ZoncCOWy0xqgJe`U`ss:/t;IKGewbSJ`0LNsL_Rm^AM21s,~jG<' );
+define( 'NONCE_KEY',        'H_ifG(V(u7}`GSWpPPyYjNb)$s~F-56/B@yo:L~),lUE{(^&}vr&DiO(O}_vzysK' );
+define( 'AUTH_SALT',        's|ZG]8G8l;Ot33r|F,>4x/6%K!)321~]5P `/nXU=Phd$.dgqDMFc)#Bn9?c{5!r' );
+define( 'SECURE_AUTH_SALT', 'oc(FUlwdBLjm3K66N&[sTZ>xRH|^>mFd1w3VP1pMnCr_X<dn]nSL:F$1fu+wEM,J' );
+define( 'LOGGED_IN_SALT',   'IX60c-q491mZ}{Pa4I]!JJTdY.8[1GNF#P|x?MnFdQ&TW0_p3#%m qX8WY#v_]fl' );
+define( 'NONCE_SALT',       '2p1XP:B3taZMm* {D+P`N{];buBL<8v6~C6_50%`!sok#Fb4;Ofq7aO%eRL]t0cq' );
 
 /**#@-*/
 

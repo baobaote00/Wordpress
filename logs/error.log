@@ -1,0 +1,14 @@
+[Mon Apr 26 23:57:14.879261 2021] [authz_core:error] [pid 9568:tid 1188] [client ::1:56022] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Mon Apr 26 23:57:16.960093 2021] [authz_core:error] [pid 9568:tid 1188] [client ::1:56022] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:00:13.303288 2021] [authz_core:error] [pid 9568:tid 1156] [client ::1:56104] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:00:14.078557 2021] [authz_core:error] [pid 9568:tid 1156] [client ::1:56104] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:00:14.266044 2021] [authz_core:error] [pid 9568:tid 1156] [client ::1:56104] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:01:05.215030 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:01:05.918287 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:01:06.565269 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:01:06.829641 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:01:07.033165 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:01:07.478306 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:01:07.689664 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:01:07.939955 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Tue Apr 27 00:01:08.125154 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/

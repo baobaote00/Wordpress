@@ -27,101 +27,101 @@ msgstr "0"
 msgid "Continue"
 msgstr "Tiếp tục"
 
-#: wp-admin/about.php:143
+#: wp-admin/about.php:110
 msgid "<strong>Buttons block:</strong> now you can choose a vertical or a horizontal layout. And you can set the width of a button to a preset percentage."
 msgstr "<strong>Khối nút bấm:</strong> bạn có thể chọn bố cục dọc hay ngang. Và bạn có thể set chiều rộng của nút theo tỷ lệ."
 
-#: wp-admin/about.php:239
+#: wp-admin/about.php:206
 msgid "Now it’s simple to let iframes lazy-load. By default, WordPress will add a <code>loading=\"lazy\"</code> attribute to iframe tags when both width and height are specified."
 msgstr "Thật đơn giản để iframe lazy-load. Mặc định WordPress sẽ thêm thuộc tính <code>loading=\"lazy\"</code> vào các thẻ iframe khi thẻ này có cả thuộc tính chiều rộng và chiều cao."
 
-#: wp-admin/about.php:237
+#: wp-admin/about.php:204
 msgid "In 5.7, jQuery gets more focused and less intrusive, with fewer messages in the console."
 msgstr "Với phiên bản 5.7, jQuery được tập trung hơn nhưng cũng đỡ phiền phức, với ít thông báo trong console của trình duyệt."
 
-#: wp-admin/about.php:230
+#: wp-admin/about.php:197
 msgid "The new Robots API lets you include the filter directives in the robots meta tag, and the API includes the <code>max-image-preview: large</code> directive by default. That means search engines can show bigger image previews, which can boost your traffic (unless the site is marked <em>not-public</em>)."
 msgstr "The new Robots API lets you include the filter directives in the robots meta tag, and the API includes the <code>max-image-preview: large</code> directive by default. That means search engines can show bigger image previews, which can boost your traffic (unless the site is marked <em>not-public</em>)."
 
-#: wp-admin/about.php:170
+#: wp-admin/about.php:137
 msgid "Dashboard with new color scheme."
 msgstr "Trang quản trị với bộ tông màu mới."
 
-#: wp-admin/about.php:168
+#: wp-admin/about.php:135
 msgid "Dashboard with old color scheme."
 msgstr "Trang quản trị với bộ tôngm àu cũ."
 
-#: wp-admin/about.php:173
+#: wp-admin/about.php:140
 msgid "Above, the Dashboard before and after the color update in 5.7."
 msgstr "Ở trên, là giao diện trang Quản trị trước và sau khi cập nhật màu sắc ở bản 5.7."
 
-#: wp-admin/about.php:148
+#: wp-admin/about.php:115
 msgid "<strong>Social Icons block:</strong> now you can change the size of the icons."
 msgstr "<strong>Block icon mạng xã hội:</strong> bạn có thể đổi kích thước của các icon."
 
-#: wp-admin/about.php:238
+#: wp-admin/about.php:205
 msgid "Lazy-load your iframes"
 msgstr "Tải sau iframe của bạn"
 
-#: wp-admin/about.php:236
+#: wp-admin/about.php:203
 msgid "For years jQuery helped make things move on the screen in ways the basic tools couldn’t—but that keeps changing, and so does jQuery."
 msgstr "Đã từ lâu thư viện jQuery giúp mọi thứ hoạt động như một công cụ cơ bản - nhưng mọi thứ cần thay đổi, và jQuery cũng vậy."
 
-#: wp-admin/about.php:235
+#: wp-admin/about.php:202
 msgid "Ongoing cleanup after update to jQuery 3.5.1"
 msgstr "Tiếp tục dọn dẹp sau khi cập nhật lên jQuery 3.5.1"
 
-#: wp-admin/about.php:226
+#: wp-admin/about.php:193
 msgid "Starting now, switching a site from HTTP to HTTPS is a one-click move. WordPress will automatically update database URLs when you make the switch. No more hunting and guessing!"
 msgstr "Từ hôm nay, chuyển website từ HTTP sang HTTPS chỉ bằng một click chuột. WordPress sẽ cập nhật các đường dẫn URL trong cơ sở dữ liệu khi bạn ấn cập nhật. Thật dễ dàng!"
 
-#: wp-admin/about.php:227
+#: wp-admin/about.php:194
 msgid "New Robots API"
 msgstr "Hệ thống Robots API mới"
 
-#: wp-admin/about.php:225
+#: wp-admin/about.php:192
 msgid "From HTTP to HTTPS in a single click"
 msgstr "Từ HTTP nâng lên HTTPS chỉ sau cú click chuột"
 
 #. translators: %s: Color palette dev note link.
-#: wp-admin/about.php:204
+#: wp-admin/about.php:171
 msgid "Find the new palette in the default WordPress Dashboard color scheme, and use it when you’re building themes, plugins, or any other components. For all the details, <a href=\"%s\">check out the Color Palette dev note</a>."
 msgstr "Tìm bảng màu mới trong bảng màu mặc định của Bản điều khiển WordPress và sử dụng nó khi bạn đang tạo giao diện, plugin hoặc bất kỳ thành phần nào khác. Để biết chi tiết, hãy <a href=\"%s\"> xem ghi chú dành cho nhà phát triển bảng màu</a>."
 
-#: wp-admin/about.php:197
+#: wp-admin/about.php:164
 msgid "Half the range has a 4.5 or higher contrast ratio against black, and the other half maintains the same contrast against white."
 msgstr "Một nửa phạm vi có tỷ lệ tương phản 4,5 hoặc cao hơn so với màu đen và nửa còn lại duy trì cùng độ tương phản so với màu trắng."
 
-#: wp-admin/about.php:190
+#: wp-admin/about.php:157
 msgid "The colors are perceptually uniform from light to dark in each range, which means they start at white and get darker by the same amount with each step."
 msgstr "Màu sắc đồng nhất về mặt cảm nhận từ sáng đến tối trong mỗi phạm vi, có nghĩa là chúng bắt đầu từ màu trắng và tối dần theo cùng một lượng với mỗi bước."
 
 #. translators: %s: WCAG information link.
-#: wp-admin/about.php:183
+#: wp-admin/about.php:150
 msgid "This new streamlined color palette collapses all the colors that used to be in the WordPress source code down to seven core colors and a range of 56 shades that meet the <a href=\"%s\">WCAG 2.0 AA recommended contrast ratio</a> against white or black."
 msgstr "Bảng màu mới được sắp xếp hợp lý này thu gọn tất cả các màu từng có trong mã nguồn WordPress xuống còn bảy màu cốt lõi và 56 sắc thái đáp ứng <a href=\"%s\">tỷ lệ tương phản được khuyến nghị WCAG 2.0 AA</a> đối lập lại màu trắng hoặc đen."
 
-#: wp-admin/about.php:161
+#: wp-admin/about.php:128
 msgid "A Simpler Default Color Palette"
 msgstr "Bảng màu mặc định đơn giản hơn"
 
-#: wp-admin/about.php:133
+#: wp-admin/about.php:100
 msgid "You can do more without writing custom code"
 msgstr "Bạn có thể làm nhiều hơn mà không phải viết thêm code bổ sung"
 
-#: wp-admin/about.php:138
+#: wp-admin/about.php:105
 msgid "<strong>Full-height alignment:</strong> have you ever wanted to make a block, like the Cover block, fill the whole window? Now you can."
 msgstr "<strong>Căn chỉnh toàn bộ chiều cao:</strong> bạn đã bao giờ muốn tạo một block, như kiểu block che phủ, lấp đầy toàn bộ cửa sổ chưa? Bây giờ bạn có thể."
 
-#: wp-admin/about.php:119
+#: wp-admin/about.php:86
 msgid "<strong>Inserter drag-and-drop:</strong> drag blocks and block patterns from the inserter right into your post."
 msgstr "<strong>Kéo và thả</strong> kéo các block và mẫu block từ trình kéo thả vào ngay bài đăng của bạn."
 
-#: wp-admin/about.php:114
+#: wp-admin/about.php:81
 msgid "<strong>Reusable blocks:</strong> several enhancements make reusable blocks more stable and easier to use. And now they save automatically with the post when you click the Update button."
 msgstr "<strong>Các block tái sử dụng:</strong> một số cải tiến giúp các các block tái sử dụng ổn định và dễ sử dụng hơn. Và bây giờ chúng tự động lưu với bài đăng khi bạn bấm vào nút Cập nhật."
 
-#: wp-admin/about.php:104
+#: wp-admin/about.php:71
 msgid "Now the editor is easier to use"
 msgstr "Trình soạn thảo dễ sử dụng hơn"
 
@@ -286,10 +286,28 @@ msgstr "Một liên kết để lấy lại mật khẩu đã được gửi t�
 msgid "Want more events? <a href=\"%s\">Help organize the next one</a>!"
 msgstr "Muốn nhiều sự kiện hơn? <a href=\"%s\">Hãy tổ chức sự kiện tiếp theo</a>!"
 
+#: wp-admin/includes/class-wp-site-health.php:1661
+msgid "Talk to your web host about resolving this HTTPS issue for your website."
+msgstr "Trao đổi với nhà cung cấp hosting để xử lý lỗi HTTPS cho website của bạn."
+
+#. translators: %s: URL to Settings > General > WordPress Address.
+#: wp-admin/includes/class-wp-site-health.php:1654
+msgid "Your <a href=\"%s\">WordPress Address</a> is set up to use HTTPS, but your website appears to be unavailable when using an HTTPS connection."
+msgstr "<a href=\"%s\">Địa chỉ WordPress</a> hỗ trợ sử dụng HTTPS, nhưng website của bạn dường như không hoạt động khi sử dụng kết nối HTTPS."
+
+#. translators: %s: URL to Settings > General > WordPress Address.
+#: wp-admin/includes/class-wp-site-health.php:1645
+msgid "Your <a href=\"%s\">WordPress Address</a> is set up to use HTTPS, but the SSL certificate appears to be invalid."
+msgstr "<a href=\"%s\">Địa chỉ WordPress</a> của bạn có thể sử dụng HTTPS, nhưng chứng chỉ bảo mật SSL không hợp lệ."
+
 #: wp-admin/includes/class-wp-site-health.php:1603
 #: wp-admin/includes/class-wp-site-health.php:1611
 msgid "Update your site to use HTTPS"
 msgstr "Cập nhật website để sử dụng HTTPS"
+
+#: wp-admin/includes/class-wp-site-health.php:1637
+msgid "There are problems with the HTTPS connection of your website"
+msgstr "Có lỗi xảy ra với kết nối HTTPS của website."
 
 #: wp-admin/includes/class-wp-site-health.php:1622
 #: wp-admin/includes/class-wp-site-health.php:1629
@@ -395,7 +413,7 @@ msgstr "Website của bạn đang chạy phiên bản PHP kém bảo mật (%s) 
 msgid "Your website appears to use Basic Authentication, which is not currently compatible with Application Passwords."
 msgstr "Trang web của bạn sử dụng Xác thực cơ bản, hiện không tương thích với Mật khẩu ứng dụng."
 
-#: wp-admin/includes/class-wp-site-health.php:2225
+#: wp-admin/includes/class-wp-site-health.php:2255
 msgid "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
 msgstr "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
 
@@ -466,7 +484,7 @@ msgstr "&larr; Tới Tài khoản"
 msgid "&larr; Go to editor"
 msgstr "&larr; Tới trình soạn thảo"
 
-#: wp-admin/about.php:265
+#: wp-admin/about.php:232
 msgid "Go to Updates"
 msgstr "Tới Cập nhật"
 
@@ -588,19 +606,19 @@ msgstr "Gỡ bỏ tất cả mật khẩu ứng dụng"
 msgid "- %1$s (from version %2$s to %3$s)"
 msgstr "- %1$s (từ phiên bản %2$s đến %3$s)"
 
-#: wp-admin/includes/class-wp-site-health.php:2220
+#: wp-admin/includes/class-wp-site-health.php:2250
 msgid "Flush permalinks"
 msgstr "Khởi tạo lại liên kết"
 
-#: wp-admin/includes/class-wp-site-health.php:2203
+#: wp-admin/includes/class-wp-site-health.php:2233
 msgid "The authorization header is missing."
 msgstr "Authorization header không có."
 
-#: wp-admin/includes/class-wp-site-health.php:2205
+#: wp-admin/includes/class-wp-site-health.php:2235
 msgid "The authorization header is invalid."
 msgstr "Authorization header không hợp lệ."
 
-#: wp-admin/includes/class-wp-site-health.php:2337
+#: wp-admin/includes/class-wp-site-health.php:2367
 msgid "Authorization header"
 msgstr "Authorization header"
 
@@ -686,11 +704,11 @@ msgid "Environment type"
 msgstr "Loại môi trường"
 
 #. translators: 1: post_max_size, 2: upload_max_filesize
-#: wp-admin/includes/class-wp-site-health.php:2145
+#: wp-admin/includes/class-wp-site-health.php:2175
 msgid "The \"%1$s\" value is smaller than \"%2$s\"."
 msgstr "Giá trị \"%1$s\" nhỏ hơn \"%2$s\"."
 
-#: wp-admin/about.php:247
+#: wp-admin/about.php:214
 msgid "Check the Field Guide for more!"
 msgstr "Kiểm tra mục Hướng dẫn để biết thêm!"
 
@@ -710,11 +728,11 @@ msgstr "Bản cập nhật này không tương thích với phiên bản WordPre
 msgid "This update doesn&#8217;t work with your versions of WordPress and PHP."
 msgstr "Bản cập nhật này không hoạt động với phiên bản WordPress và PHP hiện tại của bạn."
 
-#: wp-admin/includes/class-wp-site-health.php:2307
+#: wp-admin/includes/class-wp-site-health.php:2337
 msgid "Plugin and theme auto-updates"
 msgstr "Tự động cập nhật plugin và theme"
 
-#: wp-admin/includes/class-wp-site-health.php:1855
+#: wp-admin/includes/class-wp-site-health.php:1885
 msgid "Your site may have problems auto-updating plugins and themes"
 msgstr "Website có thể gặp vấn đề với việc tự động cập nhật plugin và giao diện"
 
@@ -727,7 +745,7 @@ msgid "Activate &#8220;%s&#8221;"
 msgstr "Kích hoạt &#8220;%s&#8221;"
 
 #. translators: 1: file_uploads, 2: 0
-#: wp-admin/includes/class-wp-site-health.php:2131
+#: wp-admin/includes/class-wp-site-health.php:2161
 msgid "%1$s is set to %2$s. You won't be able to upload files on your site."
 msgstr "%1$s được set là %2$s. Bạn không thể tải file trên web."
 
@@ -736,7 +754,7 @@ msgid "Sorry, you are not allowed to modify plugins."
 msgstr "Xin lỗi, bạn không được phép sửa plugin."
 
 #: wp-admin/includes/class-wp-debug-data.php:553
-#: wp-admin/includes/class-wp-site-health.php:2303
+#: wp-admin/includes/class-wp-site-health.php:2333
 msgid "File uploads"
 msgstr "Tải file"
 
@@ -744,7 +762,7 @@ msgstr "Tải file"
 msgid "File upload settings"
 msgstr "Thiết lập tải file"
 
-#: wp-admin/includes/class-wp-site-health.php:2096
+#: wp-admin/includes/class-wp-site-health.php:2126
 msgid "Files can be uploaded."
 msgstr "File có thể tải lên."
 
@@ -1331,14 +1349,14 @@ msgstr "Không tìm thấy bình luận nào trong Thùng rác."
 msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your %1$s file or by %2$s being defined as smaller than %3$s in %1$s."
 msgstr "Tập tin trống. Hãy thử tải lại tập tin thêm lần nữa. Lỗi này có thể do quá trình tải tập tin bị vô hiệu hóa trong file %1$s hoặc bởi by %2$s được định nghĩa nhỏ hơn %3$s trong %1$s."
 
-#: wp-admin/includes/class-wp-site-health.php:2781
+#: wp-admin/includes/class-wp-site-health.php:2811
 #: wp-admin/js/site-health.js:336
 msgid "A test is unavailable"
 msgstr "Một kiểm tra không có sẵn"
 
 #. translators: 1: The WordPress error message. 2: The WordPress error code.
-#: wp-admin/includes/class-wp-site-health.php:2045
-#: wp-admin/includes/class-wp-site-health.php:2656
+#: wp-admin/includes/class-wp-site-health.php:2075
+#: wp-admin/includes/class-wp-site-health.php:2686
 msgid "Error: %1$s (%2$s)"
 msgstr "Lỗi: %1$s (%2$s)"
 
@@ -1425,7 +1443,7 @@ msgstr "F"
 msgid "Table prefix"
 msgstr "Tiền tố bảng dữ liệu"
 
-#: wp-admin/includes/class-wp-site-health.php:2271
+#: wp-admin/includes/class-wp-site-health.php:2301
 msgid "PHP Default Timezone"
 msgstr "Múi giờ mặc định của PHP"
 
@@ -1733,11 +1751,11 @@ msgid "Customization Draft"
 msgstr "Bản nháp Tùy chỉnh"
 
 #. translators: %s: The name of the late cron event.
-#: wp-admin/includes/class-wp-site-health.php:1744
+#: wp-admin/includes/class-wp-site-health.php:1774
 msgid "The scheduled event, %s, is late to run. Your site still works, but this may indicate that scheduling posts or automated updates may not work as intended."
 msgstr "Sự kiện được lên lịch, %s, đã không thể chạy lần gần nhất. Website của bạn vẫn đang hoạt động, nhưng có thể các bài viết lập lịch hoặc cập nhật tự động có thể không hoạt động như dự định."
 
-#: wp-admin/includes/class-wp-site-health.php:1738
+#: wp-admin/includes/class-wp-site-health.php:1768
 msgid "A scheduled event is late"
 msgstr "Sự kiện được lên lịch gặp vấn đề"
 
@@ -2157,12 +2175,12 @@ msgid "Sorry, you are not allowed to perform this action."
 msgstr "Bạn không đủ quyền thực hiện hành động này."
 
 #. translators: %s: Name of the constant used.
-#: wp-admin/includes/class-wp-site-health.php:1956
+#: wp-admin/includes/class-wp-site-health.php:1986
 msgid "HTTP requests have been blocked by the %s constant, with no allowed hosts."
 msgstr "Giao thức HTTP bị chặn bởi hằng số %s, máy chủ không cho phép."
 
 #. translators: 1: Name of the constant used. 2: List of allowed hostnames.
-#: wp-admin/includes/class-wp-site-health.php:1971
+#: wp-admin/includes/class-wp-site-health.php:2001
 msgid "HTTP requests have been blocked by the %1$s constant, with some allowed hosts: %2$s."
 msgstr "Giao thức HTTP bị chặn bởi hằng số %1$s, một số hostname được liệt kê trong tài liệu %2$s."
 
@@ -2189,11 +2207,11 @@ msgstr "Eraser does not include a callback: %s."
 #: wp-admin/includes/class-wp-site-health.php:1105
 #: wp-admin/includes/class-wp-site-health.php:1155
 #: wp-admin/includes/class-wp-site-health.php:1246
-#: wp-admin/includes/class-wp-site-health.php:1696
-#: wp-admin/includes/class-wp-site-health.php:1882
-#: wp-admin/includes/class-wp-site-health.php:1925
-#: wp-admin/includes/class-wp-site-health.php:1996
-#: wp-admin/includes/class-wp-site-health.php:2099
+#: wp-admin/includes/class-wp-site-health.php:1726
+#: wp-admin/includes/class-wp-site-health.php:1912
+#: wp-admin/includes/class-wp-site-health.php:1955
+#: wp-admin/includes/class-wp-site-health.php:2026
+#: wp-admin/includes/class-wp-site-health.php:2129
 msgid "Performance"
 msgstr "Hiệu suất"
 
@@ -2240,10 +2258,10 @@ msgstr "Nhóm WordPress Hosting Team theo dõi danh sách các module này, bao 
 #: wp-admin/includes/class-wp-site-health.php:1361
 #: wp-admin/includes/class-wp-site-health.php:1430
 #: wp-admin/includes/class-wp-site-health.php:1511
-#: wp-admin/includes/class-wp-site-health.php:1650
-#: wp-admin/includes/class-wp-site-health.php:1769
-#: wp-admin/includes/class-wp-site-health.php:1839
-#: wp-admin/includes/class-wp-site-health.php:2191
+#: wp-admin/includes/class-wp-site-health.php:1680
+#: wp-admin/includes/class-wp-site-health.php:1799
+#: wp-admin/includes/class-wp-site-health.php:1869
+#: wp-admin/includes/class-wp-site-health.php:2221
 msgid "Security"
 msgstr "Bảo mật"
 
@@ -2353,39 +2371,39 @@ msgid "%s recommended improvement"
 msgid_plural "%s recommended improvements"
 msgstr[0] "%s cải tiến được đề xuất"
 
-#: wp-admin/includes/class-wp-site-health.php:2331
+#: wp-admin/includes/class-wp-site-health.php:2361
 msgid "HTTPS status"
 msgstr "Trạng thái HTTPS"
 
-#: wp-admin/includes/class-wp-site-health.php:2283
+#: wp-admin/includes/class-wp-site-health.php:2313
 msgid "MySQL utf8mb4 support"
 msgstr "Hỗ trợ MySQL utf8mb4"
 
-#: wp-admin/includes/class-wp-site-health.php:2263
+#: wp-admin/includes/class-wp-site-health.php:2293
 msgid "PHP Version"
 msgstr "Phiên bản PHP"
 
-#: wp-admin/includes/class-wp-site-health.php:2255
+#: wp-admin/includes/class-wp-site-health.php:2285
 msgid "Plugin Versions"
 msgstr "Phiên bản plugin"
 
-#: wp-admin/includes/class-wp-site-health.php:2251
+#: wp-admin/includes/class-wp-site-health.php:2281
 msgid "WordPress Version"
 msgstr "Phiên bản WordPress"
 
-#: wp-admin/includes/class-wp-site-health.php:2267
+#: wp-admin/includes/class-wp-site-health.php:2297
 msgid "PHP Extensions"
 msgstr "PHP Extensions"
 
-#: wp-admin/includes/class-wp-site-health.php:2259
+#: wp-admin/includes/class-wp-site-health.php:2289
 msgid "Theme Versions"
 msgstr "Phiên bản giao diện"
 
-#: wp-admin/includes/class-wp-site-health.php:2349
+#: wp-admin/includes/class-wp-site-health.php:2379
 msgid "REST API availability"
 msgstr "REST API khả dụng"
 
-#: wp-admin/includes/class-wp-site-health.php:2299
+#: wp-admin/includes/class-wp-site-health.php:2329
 msgid "Debugging enabled"
 msgstr "Chức năng debug lỗi đã được bật"
 
@@ -2397,144 +2415,144 @@ msgstr "Chức năng debug lỗi đã được bật"
 msgid "Secondary menu"
 msgstr "Menu thứ hai"
 
-#: wp-admin/includes/class-wp-site-health.php:2325
+#: wp-admin/includes/class-wp-site-health.php:2355
 msgid "Loopback request"
 msgstr "Yêu cầu bị lặp lại"
 
-#: wp-admin/includes/class-wp-site-health.php:2279
+#: wp-admin/includes/class-wp-site-health.php:2309
 msgid "Database Server version"
 msgstr "Phiên bản máy chủ cơ sở dữ liệu"
 
-#: wp-admin/includes/class-wp-site-health.php:2295
+#: wp-admin/includes/class-wp-site-health.php:2325
 msgid "HTTP Requests"
 msgstr "Request HTTP"
 
-#: wp-admin/includes/class-wp-site-health.php:2291
+#: wp-admin/includes/class-wp-site-health.php:2321
 msgid "Scheduled events"
 msgstr "Sự kiện được lên lịch"
 
-#: wp-admin/includes/class-wp-site-health.php:2677
+#: wp-admin/includes/class-wp-site-health.php:2707
 msgid "The loopback request to your site completed successfully."
 msgstr "Yêu cầu loopback đến web của bạn thành công."
 
-#: wp-admin/includes/class-wp-site-health.php:2445
+#: wp-admin/includes/class-wp-site-health.php:2475
 msgid "No scheduled events exist on this site."
 msgstr "Không có sẵn sự kiện được lên lịch nào trên web."
 
-#: wp-admin/includes/class-wp-site-health.php:2287
+#: wp-admin/includes/class-wp-site-health.php:2317
 msgid "Secure communication"
 msgstr "Kết nối an toàn"
 
-#: wp-admin/includes/class-wp-site-health.php:2071
+#: wp-admin/includes/class-wp-site-health.php:2101
 msgid "The REST API did not behave correctly"
 msgstr "The REST API không thực thi đúng"
 
-#: wp-admin/includes/class-wp-site-health.php:2036
+#: wp-admin/includes/class-wp-site-health.php:2066
 msgid "The REST API encountered an error"
 msgstr "REST API gặp lỗi"
 
-#: wp-admin/includes/class-wp-site-health.php:2054
+#: wp-admin/includes/class-wp-site-health.php:2084
 msgid "The REST API encountered an unexpected result"
 msgstr "REST API gặp lỗi trả về kết quả sai"
 
 #. translators: %s: The name of the query parameter being tested.
-#: wp-admin/includes/class-wp-site-health.php:2077
+#: wp-admin/includes/class-wp-site-health.php:2107
 msgid "The REST API did not process the %s query parameter correctly."
 msgstr "REST API không thực thi biến %s đúng."
 
-#: wp-admin/includes/class-wp-site-health.php:2042
+#: wp-admin/includes/class-wp-site-health.php:2072
 msgid "The REST API request failed due to an error."
 msgstr "Yêu cầu API REST không thành công do lỗi."
 
 #. translators: 1: The HTTP error code. 2: The HTTP error message.
-#: wp-admin/includes/class-wp-site-health.php:2060
+#: wp-admin/includes/class-wp-site-health.php:2090
 msgid "The REST API call gave the following unexpected result: (%1$d) %2$s."
 msgstr "API REST đã cho kết quả không mong muốn sau: (%1$d) %2$s."
 
-#: wp-admin/includes/class-wp-site-health.php:2001
+#: wp-admin/includes/class-wp-site-health.php:2031
 msgid "The REST API is one way WordPress, and other applications, communicate with the server. One example is the block editor screen, which relies on this to display, and save, your posts and pages."
 msgstr "REST API là cách một chiều mà WordPress, và các ứng dụng khác, trao đổi với máy chủ. Một ví dụ là màn hình soạn thảo block, dựa vào công nghệ này để hiển thị và lưu các bài viết và trang."
 
-#: wp-admin/includes/class-wp-site-health.php:2653
+#: wp-admin/includes/class-wp-site-health.php:2683
 msgid "The loopback request to your site failed, this means features relying on them are not currently working as expected."
 msgstr "Yêu cầu tác vụ web của bạn không thành công, nghĩa là tính năng nào phụ thuộc vào tác vụ định kỳ này sẽ không hoạt động như mong đợi."
 
 #. translators: %d: The HTTP response code returned.
-#: wp-admin/includes/class-wp-site-health.php:2669
+#: wp-admin/includes/class-wp-site-health.php:2699
 msgid "The loopback request returned an unexpected http status code, %d, it was not possible to determine if this will prevent features from working as expected."
 msgstr "Yêu cầu tác vụ định kỳ trả về trạng thái http code không mong đợi %d, nghĩa là không thể xác định nó có thể ngăn cản các tính năng trong tương lai."
 
-#: wp-admin/includes/class-wp-site-health.php:1993
+#: wp-admin/includes/class-wp-site-health.php:2023
 msgid "The REST API is available"
 msgstr "REST API có sẵn"
 
-#: wp-admin/includes/class-wp-site-health.php:1965
+#: wp-admin/includes/class-wp-site-health.php:1995
 msgid "HTTP requests are partially blocked"
 msgstr "Yêu cầu HTTP bị chặn một phần"
 
-#: wp-admin/includes/class-wp-site-health.php:1950
+#: wp-admin/includes/class-wp-site-health.php:1980
 msgid "HTTP requests are blocked"
 msgstr "Yêu cầu HTTP bị chặn"
 
-#: wp-admin/includes/class-wp-site-health.php:1930
+#: wp-admin/includes/class-wp-site-health.php:1960
 msgid "It is possible for site maintainers to block all, or some, communication to other sites and services. If set up incorrectly, this may prevent plugins and themes from working as intended."
 msgstr "Người duy trì trang web có thể chặn tất cả hoặc một số thông tin liên lạc đến các trang web và dịch vụ khác. Nếu được thiết lập không chính xác, điều này có thể ngăn các plugin và giao diện hoạt động như dự định."
 
-#: wp-admin/includes/class-wp-site-health.php:1792
+#: wp-admin/includes/class-wp-site-health.php:1822
 msgid "Passed"
 msgstr "Đạt"
 
-#: wp-admin/includes/class-wp-site-health.php:1766
+#: wp-admin/includes/class-wp-site-health.php:1796
 msgid "Background updates are working"
 msgstr "Nâng cấp ngầm đang thực thi"
 
-#: wp-admin/includes/class-wp-site-health.php:1725
+#: wp-admin/includes/class-wp-site-health.php:1755
 msgid "A scheduled event has failed"
 msgstr "Sự kiện được lên lịch gặp vấn đề"
 
 #. translators: %s: The name of the failed cron event.
-#: wp-admin/includes/class-wp-site-health.php:1731
+#: wp-admin/includes/class-wp-site-health.php:1761
 msgid "The scheduled event, %s, failed to run. Your site still works, but this may indicate that scheduling posts or automated updates may not work as intended."
 msgstr "Sự kiện được lên lịch, %s, không thể chạy. Web của bạn vẫn hoạt động, nhưng có thể bị ảnh hưởng tới các bài viết dự định đăng hoặc tự động nâng cấp không hoạt động như mong muốn."
 
-#: wp-admin/includes/class-wp-site-health.php:1922
+#: wp-admin/includes/class-wp-site-health.php:1952
 msgid "HTTP requests seem to be working as expected"
 msgstr "Các yêu cầu HTTP dường như đang hoạt động như mong đợi"
 
-#: wp-admin/includes/class-wp-site-health.php:1898
+#: wp-admin/includes/class-wp-site-health.php:1928
 msgid "Your site could not complete a loopback request"
 msgstr "Trang web của bạn không thể hoàn thành yêu cầu loopback"
 
-#: wp-admin/includes/class-wp-site-health.php:1803
+#: wp-admin/includes/class-wp-site-health.php:1833
 msgid "Background updates may not be working properly"
 msgstr "Cập nhật nền có thể không hoạt động đúng"
 
-#: wp-admin/includes/class-wp-site-health.php:1795
+#: wp-admin/includes/class-wp-site-health.php:1825
 msgid "Background updates are not working as expected"
 msgstr "Cập nhật nền không hoạt động như mong đợi"
 
-#: wp-admin/includes/class-wp-site-health.php:1774
+#: wp-admin/includes/class-wp-site-health.php:1804
 msgid "Background updates ensure that WordPress can auto-update if a security update is released for the version you are currently using."
 msgstr "Cập nhật nền đảm bảo rằng WordPress có thể tự động cập nhật nếu bản cập nhật bảo mật được phát hành cho phiên bản bạn hiện đang sử dụng."
 
-#: wp-admin/includes/class-wp-site-health.php:1712
+#: wp-admin/includes/class-wp-site-health.php:1742
 msgid "It was not possible to check your scheduled events"
 msgstr "Không thể kiểm tra các sự kiện được lên lịch của bạn của bạn"
 
 #. translators: %s: The error message returned while from the cron scheduler.
-#: wp-admin/includes/class-wp-site-health.php:1718
+#: wp-admin/includes/class-wp-site-health.php:1748
 msgid "While trying to test your site&#8217;s scheduled events, the following error was returned: %s"
 msgstr "Trong khi thử kiểm tra các sự kiện được lên lịch trên trang web của bạn, lỗi sau đã được trả về: %s"
 
-#: wp-admin/includes/class-wp-site-health.php:1879
+#: wp-admin/includes/class-wp-site-health.php:1909
 msgid "Your site can perform loopback requests"
 msgstr "Trang web của bạn có thể thực hiện các tác vụ định kỳ"
 
-#: wp-admin/includes/class-wp-site-health.php:1887
+#: wp-admin/includes/class-wp-site-health.php:1917
 msgid "Loopback requests are used to run scheduled events, and are also used by the built-in editors for themes and plugins to verify code stability."
 msgstr "Các tác vụ định kỳ thường sử dụng để chạy các sự kiện được lên lịch và cũng được sử dụng bởi các biên tập viên tích hợp cho các giao diện và plugin để xác minh tính ổn định của code."
 
-#: wp-admin/includes/class-wp-site-health.php:1701
+#: wp-admin/includes/class-wp-site-health.php:1731
 msgid "Scheduled events are what periodically looks for updates to plugins, themes and WordPress itself. It is also what makes sure scheduled posts are published on time. It may also be used by various plugins to make sure that planned actions are executed."
 msgstr "Các sự kiện được lên lịch sẽ giúp tìm kiếm các bản cập nhật cho plugin, giao diện và chính mã nguồn WordPress. Nó cũng đảm bảo bài viết lên lịch được đăng đúng thời gian. Nó còn có thể được sử dụng bởi các plugin khác nhau để đảm bảo rằng các hành động theo kế hoạch được thực thi."
 
@@ -2542,19 +2560,19 @@ msgstr "Các sự kiện được lên lịch sẽ giúp tìm kiếm các bản 
 msgid "Your website does not use HTTPS"
 msgstr "Website không sử dụng giao thức bảo mật SSL/HTTPS"
 
-#: wp-admin/includes/class-wp-site-health.php:1693
+#: wp-admin/includes/class-wp-site-health.php:1723
 msgid "Scheduled events are running"
 msgstr "Sự kiện được lên lịch đang chạy"
 
-#: wp-admin/includes/class-wp-site-health.php:1674
+#: wp-admin/includes/class-wp-site-health.php:1704
 msgid "Talk to your web host about OpenSSL support for PHP."
 msgstr "Trao đổi với nhà cung cấp dịch vụ hosting về hỗ trợ OpenSSL cho PHP."
 
-#: wp-admin/includes/class-wp-site-health.php:1670
+#: wp-admin/includes/class-wp-site-health.php:1700
 msgid "Your site is unable to communicate securely with other services"
 msgstr "Site của bạn không thể kết nối an toàn với các dịch vụ khác."
 
-#: wp-admin/includes/class-wp-site-health.php:1666
+#: wp-admin/includes/class-wp-site-health.php:1696
 msgid "Your site can communicate securely with other services"
 msgstr "Site của bạn có thể kết nối an toàn với các dịch vụ khác."
 
@@ -2562,7 +2580,7 @@ msgstr "Site của bạn có thể kết nối an toàn với các dịch vụ k
 msgid "Learn more about why you should use HTTPS"
 msgstr "Đọc thêm về lý do tại sao bạn nên sử dụng HTTPS"
 
-#: wp-admin/includes/class-wp-site-health.php:1655
+#: wp-admin/includes/class-wp-site-health.php:1685
 msgid "Securely communicating between servers are needed for transactions such as fetching files, conducting sales on store sites, and much more."
 msgstr "Giao tiếp an toàn giữa các máy chủ là cần thiết cho các giao dịch như tìm nạp tệp, tiến hành bán hàng trên các trang web của cửa hàng và hơn thế nữa."
 
@@ -2665,7 +2683,7 @@ msgstr "Máy chủ SQL là phiên bản mới nhất"
 
 #: wp-admin/includes/class-wp-site-health.php:1001
 #: wp-admin/includes/class-wp-site-health.php:1389
-#: wp-admin/includes/class-wp-site-health.php:1799
+#: wp-admin/includes/class-wp-site-health.php:1829
 msgid "Error"
 msgstr "Lỗi"
 
@@ -3162,7 +3180,7 @@ msgstr "Có thể truy cập WordPress.org"
 
 #: wp-admin/includes/class-wp-debug-data.php:421
 #: wp-admin/includes/class-wp-debug-data.php:427
-#: wp-admin/includes/class-wp-site-health.php:2313
+#: wp-admin/includes/class-wp-site-health.php:2343
 msgid "Communication with WordPress.org"
 msgstr "Giao tiếp với WordPress.org"
 
@@ -3485,7 +3503,7 @@ msgstr "Không thể cài đặt"
 
 #. translators: %s: WordPress version.
 #: wp-admin/includes/update.php:302 wp-admin/install.php:238
-#: wp-admin/update-core.php:84 wp-admin/upgrade.php:80 wp-admin/about.php:91
+#: wp-admin/update-core.php:84 wp-admin/upgrade.php:80
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -5895,7 +5913,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Hiện tại: %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:366
+#: wp-admin/about.php:333
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Phiên bản %s</strong> đã giải quyết vấn đề bảo mật."
 
@@ -5907,15 +5925,15 @@ msgstr "https://en.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Ảnh đại diện"
 
-#: wp-admin/about.php:357
+#: wp-admin/about.php:324
 msgid "Maintenance Releases"
 msgstr "Các phiên bản bảo trì"
 
-#: wp-admin/about.php:360
+#: wp-admin/about.php:327
 msgid "Security Releases"
 msgstr "Các phiên bản bảo mật"
 
-#: wp-admin/about.php:71 wp-admin/about.php:363
+#: wp-admin/about.php:330
 msgid "Maintenance and Security Releases"
 msgstr "Các phiên bản bảo trì và bảo mật"
 
@@ -6177,7 +6195,7 @@ msgid "The %1$s plugin header is deprecated. Use %2$s instead."
 msgstr "%1$s tiêu đề gói mở rộng không phù hợp. Sử dụng %2$s để thay thế."
 
 #: wp-admin/includes/class-wp-site-health.php:1009
-#: wp-admin/includes/class-wp-site-health.php:1807
+#: wp-admin/includes/class-wp-site-health.php:1837
 msgid "Warning"
 msgstr "Cảnh báo"
 
@@ -7788,7 +7806,7 @@ msgstr "Các bản dịch của bạn vẫn là mới nhất."
 msgid "You also have some plugins or themes with updates available. Update them now:"
 msgstr "Có cập nhật cho một vài plugin và giao diện bạn đang dùng. Nâng cấp ngay:"
 
-#: wp-admin/includes/class-wp-site-health.php:2319
+#: wp-admin/includes/class-wp-site-health.php:2349
 msgid "Background updates"
 msgstr "Cập nhật nền"
 
@@ -9371,26 +9389,25 @@ msgstr "Hiển thị thanh công cụ khi xem trang"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:377
+#: wp-admin/about.php:344
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết một vấn đề về bảo mật và sửa %2$s lỗi."
 
-#. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:88 wp-admin/about.php:389
+#: wp-admin/about.php:356
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Để biết thêm thông tin, xem <a href=\"%s\">thông báo phát hành</a>."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:76 wp-admin/about.php:383
+#: wp-admin/about.php:350
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết một số vấn đề về bảo mật và sửa %2$s lỗi."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:371
+#: wp-admin/about.php:338
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết %2$s lỗi."
@@ -9399,20 +9416,20 @@ msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết %2$s lỗi."
 msgid "Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab above the screen title."
 msgstr "Chào mừng đến với giao diện Quản trị của WordPress! Đây đơn giản là nơi bạn đăng nhập và truy cập vào các tính năng quản lý website của mình. Bạn có thể xem thêm thông tin trợ giúp bằng cách nhấp vào các mục Trợ giúp ở trên mỗi đầu trang."
 
-#: wp-admin/about.php:362
+#: wp-admin/about.php:329
 msgid "Maintenance and Security Release"
 msgstr "Các bản Bảo Mật và Bảo Trì"
 
-#: wp-admin/about.php:359
+#: wp-admin/about.php:326
 msgid "Security Release"
 msgstr "Các bản Bảo Mật"
 
-#: wp-admin/about.php:356
+#: wp-admin/about.php:323
 msgid "Maintenance Release"
 msgstr "Các bản Bảo Trì"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:368
+#: wp-admin/about.php:335
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Phiên bản %1$s</strong> đã giải quyết một số vấn đề về bảo mật."
 
@@ -9697,11 +9714,11 @@ msgstr "<strong>Thùng rác</strong> loại bỏ bài viết của bạn khỏi 
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
 msgstr "Do đây là một bản cài đặt đa mạng, bạn có thể thêm tài khoản đã tồn tại trong Mạng Lưới bằng cách chỉ định tên truy cập hoặc địa chỉ thư điện tử, và lựa chọn một vai trò người dùng. Để có thêm lựa chọn, như chỉ định mật khẩu, bạn phải là Quản Trị Viên Mạng Lưới và sử dụng liên kết hiển thị phía dưới tên người dùng khi di chuột lên để Biên Tập hồ sơ người dùng tại Quản Trị Mạng Lưới > Tất Cả Người Dùng."
 
-#: wp-admin/about.php:268
+#: wp-admin/about.php:235
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Đến Bảng tin &rarr; Trang chủ"
 
-#: wp-admin/about.php:265
+#: wp-admin/about.php:232
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "Tới Bảng tin &rarr; Cập nhật"
 
@@ -11562,7 +11579,7 @@ msgstr "Múi giờ này đang sử dụng thời gian kéo dài ngày."
 msgid "Yes, delete these files and data"
 msgstr "Đúng, Xóa những tập tin và dữ liệu này"
 
-#: wp-admin/about.php:268 wp-admin/includes/network.php:148
+#: wp-admin/about.php:235 wp-admin/includes/network.php:148
 msgid "Go to Dashboard"
 msgstr "Xem bảng tin"
 

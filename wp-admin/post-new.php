@@ -23,9 +23,7 @@ if ( ! isset( $_GET['post_type'] ) ) {
 } else {
 	wp_die( __( 'Invalid post type.' ) );
 }
-// var_dump($post_type); die;
 $post_type_object = get_post_type_object( $post_type );
-// var_dump($post_type_object); die;
 
 if ( 'post' === $post_type ) {
 	$parent_file  = 'edit.php';
@@ -53,11 +51,8 @@ if ( 'post' === $post_type ) {
 	}
 }
 
-// var_dump($submenu_file); die;
-
 $title = $post_type_object->labels->add_new_item;
 
-// var_dump($title); die;
 $editing = true;
 
 if ( ! current_user_can( $post_type_object->cap->edit_posts ) || ! current_user_can( $post_type_object->cap->create_posts ) ) {
@@ -67,18 +62,14 @@ if ( ! current_user_can( $post_type_object->cap->edit_posts ) || ! current_user_
 		403
 	);
 }
-// var_dump(current_user_can($post_type_object->cap->create_posts));die;
 
 $post    = get_default_post_to_edit( $post_type, true );
 $post_ID = $post->ID;
-// var_dump($post_ID);die;
 
 /** This filter is documented in wp-admin/post.php */
 if ( apply_filters( 'replace_editor', false, $post ) !== true ) {
 	if ( use_block_editor_for_post( $post ) ) {
 		require ABSPATH . 'wp-admin/edit-form-blocks.php';
-		// var_dump(apply_filters( 'replace_editor', false, $post ));die;
-
 	} else {
 		wp_enqueue_script( 'autosave' );
 		require ABSPATH . 'wp-admin/edit-form-advanced.php';
@@ -88,6 +79,5 @@ if ( apply_filters( 'replace_editor', false, $post ) !== true ) {
 	$current_screen = get_current_screen();
 	$current_screen->is_block_editor( false );
 }
-
 
 require_once ABSPATH . 'wp-admin/admin-footer.php';
