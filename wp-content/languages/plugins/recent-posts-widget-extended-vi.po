@@ -1,0 +1,250 @@
+# Translation of Plugins - Recent Posts Widget Extended - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - Recent Posts Widget Extended - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-10-23 05:15:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Recent Posts Widget Extended - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "Satrya"
+msgstr "Satrya"
+
+#. Description of the plugin
+msgid "Enables advanced widget that gives you total control over the output of your site’s most recent Posts."
+msgstr "Cho phép tiện ích mở rộng cung cấp cho bạn toàn quyền kiểm soát đầu ra các bài đăng gần đây nhất trên trang web của bạn."
+
+#. Plugin Name of the plugin
+msgid "Recent Posts Widget Extended"
+msgstr "Tiện ích mở rộng bài đăng gần đây nhất"
+
+#: includes/functions.php:194
+msgid "1 Comment"
+msgstr "1 Bình luận"
+
+#: includes/functions.php:192
+msgid "%s Comments"
+msgstr "%s Bình luận"
+
+#: includes/functions.php:190
+msgid "No Comments"
+msgstr "Không có bình luận nào."
+
+#: includes/functions.php:177 includes/functions.php:183
+msgid "%s ago"
+msgstr "%s trước đó"
+
+#: includes/functions.php:172
+msgid "Permalink to %s"
+msgstr "Liên kết đến %s"
+
+#: includes/functions.php:49
+msgid "Read More &raquo;"
+msgstr "Xem thêm &raquo;"
+
+#: includes/functions.php:23
+msgid "Recent Posts"
+msgstr "Bài đăng gần đây nhất"
+
+#: includes/form.php:295
+msgid "If you turn off the default styles, you can use these css code to customize the recent posts style."
+msgstr "Nếu bạn tắt các kiểu css mặc định, bạn có thể sử dụng các mã css này để tùy chỉnh kiểu css cho bài đăng gần đây."
+
+#: includes/form.php:292
+msgid "Custom CSS"
+msgstr "CSS tuỳ chỉnh"
+
+#: includes/form.php:286
+msgid "Use Default Styles"
+msgstr "Sử dụng kiểu mặc định"
+
+#: includes/form.php:274
+msgid "Use Relative Date. eg: 5 days ago"
+msgstr "Sử dụng ngày tương đối. Ví dụ: 5 ngày trước."
+
+#: includes/form.php:267
+msgid "Display Modification Date"
+msgstr "Hiển thị ngày sửa đổi"
+
+#: includes/form.php:260
+msgid "Display Date"
+msgstr "Hiển thị ngày"
+
+#: includes/form.php:253
+msgid "Display Comment Count"
+msgstr "Hiển thị số lượt bình luận"
+
+#: includes/form.php:245
+msgid "Readmore Text"
+msgstr "Văn bản đọc thêm"
+
+#: includes/form.php:239
+msgid "Display Readmore"
+msgstr "Hiển thị đọc thêm"
+
+#: includes/form.php:231
+msgid "Excerpt Length"
+msgstr "độ dài đoạn trích văn bản"
+
+#: includes/form.php:225
+msgid "Display Excerpt"
+msgstr "Hiển thị đoạn trích văn bản"
+
+#: includes/form.php:217
+msgid "Leave it blank to disable."
+msgstr "Để trống bị vô hiệu hoá"
+
+#: includes/form.php:214
+msgid "Default Thumbnail"
+msgstr "Hình nhỏ mặc định"
+
+#: includes/form.php:208
+msgid "Center"
+msgstr "giữa"
+
+#: includes/form.php:207
+msgid "Right"
+msgstr "phải"
+
+#: includes/form.php:206
+msgid "Left"
+msgstr "trái"
+
+#: includes/form.php:201
+msgid "Thumbnail (height,width,align)"
+msgstr "Hình nhỏ (chiều cao, độ rộng, căn chỉnh)"
+
+#: includes/form.php:195
+msgid "Display Thumbnail"
+msgstr "Hiển thị hình nhỏ"
+
+#: includes/form.php:187
+msgid "The number of posts to skip"
+msgstr "Số bài viết bỏ qua"
+
+#: includes/form.php:184
+msgid "Offset"
+msgstr "Vị trí"
+
+#: includes/form.php:177
+msgid "Number of posts to show"
+msgstr "Số bài viết hiển thị"
+
+#: includes/form.php:167
+msgid "Available: "
+msgstr "Tồn tại"
+
+#: includes/form.php:166
+msgid "Ex: category=1,2,4&amp;post_tag=6,12"
+msgstr "Ví dụ: category=1,2,4&amp;post_tag=6,12"
+
+#: includes/form.php:163
+msgid "Limit to Taxonomy"
+msgstr "Giới hạn phân loại"
+
+#: includes/form.php:147
+msgid "Limit to Tag"
+msgstr "Giới hạn nhãn"
+
+#: includes/form.php:131
+msgid "Limit to Category"
+msgstr "Giới hạn chuyên mục"
+
+#: includes/form.php:125
+msgid "Menu Order"
+msgstr "Sắp xếp thực đơn"
+
+#: includes/form.php:124
+msgid "Comment Count"
+msgstr ""
+"Số lượt bình luận\n"
+"Số lượt nhận xét"
+
+#: includes/form.php:123
+msgid "Random"
+msgstr "Ngẫu nhiên"
+
+#: includes/form.php:122
+msgid "Modified"
+msgstr "Được sửa đổi"
+
+#: includes/form.php:121
+msgid "Date"
+msgstr "Ngày"
+
+#: includes/form.php:119
+msgid "Author"
+msgstr "Chủ mưu"
+
+#: includes/form.php:118
+msgid "ID"
+msgstr "ID"
+
+#: includes/form.php:115
+msgid "Orderby"
+msgstr "Sắp xếp theo"
+
+#: includes/form.php:109
+msgid "Ascending"
+msgstr "Tăng dần"
+
+#: includes/form.php:108
+msgid "Descending"
+msgstr "Giảm dần"
+
+#: includes/form.php:105
+msgid "Order"
+msgstr "Sắp xếp"
+
+#: includes/form.php:94
+msgid "Post Status"
+msgstr "Trạng thái bài đăng"
+
+#: includes/form.php:78
+msgid "Post Types"
+msgstr "Các loại bài đăng"
+
+#: includes/form.php:72
+msgid "Exclude current post"
+msgstr "Loại trừ bài đăng hiện tại"
+
+#: includes/form.php:65
+msgid "Ignore sticky posts"
+msgstr "Bỏ qua các bài viết dính"
+
+#: includes/form.php:53
+msgid "HTML or text after the recent posts"
+msgstr "HTML hoặc văn bản nằm sau các bài đăng gần đây"
+
+#: includes/form.php:46
+msgid "HTML or text before the recent posts"
+msgstr "HTML hoặc văn bản nằm trước các bài đăng gần đây"
+
+#: includes/form.php:39
+msgid "CSS Class"
+msgstr "CSS Class"
+
+#: includes/form.php:32
+msgid "CSS ID"
+msgstr "CSS ID"
+
+#: includes/form.php:25
+msgid "Title URL"
+msgstr "Tiêu đề URL"
+
+#: includes/form.php:18 includes/form.php:120
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: classes/widget.php:37
+msgid "Recent Posts Extended"
+msgstr "Bài viết mới mở rộng"
+
+#: classes/widget.php:25
+msgid "An advanced widget that gives you total control over the output of your site’s most recent Posts."
+msgstr "Tiện ích nâng cao cho phép bạn kiểm soát tổng thể các bài viết gần đây nhất của trang web."
