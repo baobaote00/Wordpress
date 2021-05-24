@@ -12,3 +12,4 @@
 [Tue Apr 27 00:01:07.689664 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/
 [Tue Apr 27 00:01:07.939955 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/
 [Tue Apr 27 00:01:08.125154 2021] [authz_core:error] [pid 22080:tid 1180] [client ::1:56116] AH01630: client denied by server configuration: D:/git/Wordpress/
+[Mon May 24 13:02:42.391781 2021] [access_compat:error] [pid 8372:tid 1176] [client ::1:65508] AH01797: client denied by server configuration: D:/git/Wordpress/wp-content/uploads/woocommerce_uploads/, referer: http://wordpress.local/wp-content/uploads/woocommerce_uploads/
